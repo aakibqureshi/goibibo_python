@@ -8,7 +8,7 @@ You need to get your `APP_ID` and `APP_KEY` from [https://developer.goibibo.com/
 
     from goibibo import goibiboAPI
 
-    GO = goibiboAPI(YOUR_APP_ID, YOUR_APP_ID)
+    GO = goibiboAPI(YOUR_APP_ID, YOUR_APP_KEY)
 
     print GO.FlightSearch("BLR", "HYD", 20141028)
     print GO.MinimumFare("BLR", "HYD", 20141028)
